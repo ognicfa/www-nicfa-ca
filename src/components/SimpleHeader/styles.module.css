@@ -1,0 +1,27 @@
+.handsBackground {
+  background-image: url(/img/hands.jpg);
+}
+
+.campusBackground {
+  background-image: url(/img/nic-front-good-quality.jpg);
+}
+
+.filesBackground {
+  background-image: url(/img/files.jpg);
+}
+
+.heroBanner {
+    padding: 10rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  @media screen and (max-width: 996px) {
+    .heroBanner {
+      padding: 2rem;
+    }
+  }
+  
