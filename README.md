@@ -2,10 +2,18 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+## Environment Variables
+
+You need to set `REACT_APP_BACKEND_URL` with the URL of the
+corresponding backend service.
+
+`REACT_APP_RECAPTCHA_KEY` needs to have the reCAPTCHA key used to validate
+certain requests.
+
 ### Installation
 
 ```
-$ nps install
+$ npm install
 ```
 
 ### Local Development

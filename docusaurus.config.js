@@ -6,6 +6,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  customFields: {
+    recaptchaKey: process.env.REACT_APP_RECAPTCHA_KEY,
+    backendURL: process.env.REACT_APP_BACKEND_URL,
+  },
   title: 'NICFA',
   tagline: 'North Island College Faculty Association',
   favicon: 'img/nicfa-logo.ico',
@@ -59,6 +63,7 @@ const config = {
         items: [
           {to: '/members', label: 'Members', position: 'left'},
           {to: '/documents', label: 'Documents', position: 'left'},
+          {to: '/contact', label: 'Contact', position: 'left'},
         ],
       },
       footer: {
