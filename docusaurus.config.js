@@ -63,7 +63,7 @@ const config = {
         items: [
           {to: '/members', label: 'Members', position: 'left'},
           {to: '/documents', label: 'Documents', position: 'left'},
-          {to: '/contact', label: 'Contact', position: 'left'},
+          {to: '/contact', label: 'Contact Us', position: 'left'},
         ],
       },
       footer: {
@@ -72,6 +72,10 @@ const config = {
           {
             title: 'Links',
             items: [
+              {
+                label: 'Contact Us',
+                to: 'contact/',
+              },
               {
                 label: 'FPSE',
                 href: 'https://fpse.ca',
@@ -91,19 +95,6 @@ const config = {
               {
                 label: 'NIC',
                 href: 'https://www.nic.bc.ca',
-              },
-            ],
-          },
-          {
-            title: 'Contact',
-            items: [
-              {
-                html: 'North Island College Faculty Association<br />'+
-                      'c/o North Island College<br />'+
-                      '2300 Ryan Road<br />'+
-                      'Courtenay, BC  V9N 8N6<br /><br />'+
-                      'Jen Wrye, President<br />'+
-                      '(250)334-5030',
               },
             ],
           },

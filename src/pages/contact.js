@@ -14,11 +14,10 @@ export default function ContactPage() {
   return (
     <GoogleReCaptchaProvider reCaptchaKey={customFields.recaptchaKey}>
       <Layout
-        title={`Contact`}
-        description="Contact">
-        <SimpleHeader bgimage="hands">Contact</SimpleHeader>
+        title={`Contact Us`}
+        description="Contact Us">
+        <SimpleHeader bgimage="hands">Contact Us</SimpleHeader>
         <SimpleContent>
-          <h1>Contact</h1>
           <p>
             This form is primarily for North Island College
             faculty members to contact 
@@ -27,6 +26,14 @@ export default function ContactPage() {
             can email <Obfuscate email="contact@nicfa.ca" linkText="blimblam" />.
           </p>
           <ContactForm />
+          <p></p>
+          <h2>Mailing Address</h2>
+          <p>North Island College Faculty Association<br />
+                      c/o North Island College<br />
+                      2300 Ryan Road<br />
+                      Courtenay, BC  V9N 8N6<br /><br />
+                      Jen Wrye, President<br />
+                      (250)334-5030</p>
         </SimpleContent>
       </Layout>
     </GoogleReCaptchaProvider>
