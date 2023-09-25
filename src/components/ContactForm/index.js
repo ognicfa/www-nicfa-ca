@@ -82,7 +82,7 @@ export default function ContactForm() {
         <input type="text" 
                name="name" 
                id="name" 
-               autocomlete="name"
+               autocomplete="name"
                placeholder="your name" 
                required />
       </div>
