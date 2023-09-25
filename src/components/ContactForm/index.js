@@ -100,7 +100,7 @@ export default function ContactForm() {
         <textarea name="message" id="message" maxlength="500" rows="5" cols="40" required></textarea>
       </div>
       <div>
-        <input type="submit" value="Submit" disabled={submitDisabled} />
+        <input type="submit" value="Send message" disabled={submitDisabled} />
       </div>
     </form>
   );
