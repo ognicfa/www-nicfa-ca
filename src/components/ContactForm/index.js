@@ -79,11 +79,21 @@ export default function ContactForm() {
     <form className={classes} onSubmit={handleRecaptchaVerify}>
       <div>
         <label for="name">Name</label>
-        <input type="text" name="name" id="name" placeholder="your name" required />
+        <input type="text" 
+               name="name" 
+               id="name" 
+               autocomlete="name"
+               placeholder="your name" 
+               required />
       </div>
       <div>
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="your email address" required />
+        <input type="email" 
+               name="email" 
+               id="email" 
+               autocomplete="email"
+               placeholder="your email address" 
+               required />
       </div>
       <div>
         <label for="message">Message (maximum 500 characters)</label>
