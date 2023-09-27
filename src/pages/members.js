@@ -36,7 +36,7 @@ export default function MembersPage() {
                 </tr>
                 <tr>
                     <td>Equity Officer</td>
-                    <td>[vacant]</td>
+                    <td>Cynthia Zhao</td>
                 </tr>
                 <tr>
                     <td>Nox̱sola</td>
@@ -96,15 +96,15 @@ export default function MembersPage() {
                 </tr>
                 <tr>
                     <td>Disability Management <strong>DMRC</strong></td>
-                    <td>[vacant]</td>
+                    <td>Cynthia Zhao</td>
                 </tr>
                 <tr>
                     <td>Human Rights & Solidarity <strong>HRISC</strong></td>
-                    <td>[vacant]</td>
+                    <td>Kerri Lowey McKenzie</td>
                 </tr>
                 <tr>
                     <td>Non-regular Faculty <strong>NRFC</strong></td>
-                    <td>[TBA]</td>
+                    <td>Dan Webb</td>
                 </tr>
                 <tr>
                     <td>Pension Advisory <strong>PAC</strong></td>
@@ -112,7 +112,7 @@ export default function MembersPage() {
                 </tr>
                 <tr>
                     <td>Women & Gender Eqity <strong></strong></td>
-                    <td>[vacant]</td>
+                    <td>Noreen McCaffrey</td>
                 </tr>
                 <tr>
                     <td>Workplace Health, Safety & Environment <strong>WHSEC</strong></td>
