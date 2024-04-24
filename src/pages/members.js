@@ -4,6 +4,10 @@ import Layout from '@theme/Layout';
 import SimpleContent from '@site/src/components/SimpleContent';
 import SimpleHeader from '@site/src/components/SimpleHeader';
 
+import SOJACInfoUrl from '@site/static/pdfs/SOJAC-Chair-Election.docx.pdf';
+import SOJACNominationUrl from '@site/static/pdfs/NICFA-Nomination-Form.docx.pdf';
+
+
 export default function MembersPage() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -48,7 +52,7 @@ export default function MembersPage() {
                 </tr>
                 <tr>
                     <td>Social, Organizing & Job Action Chair (NEW)</td>
-                    <td>[vacant]</td>
+                    <td>[vacant] <a href="#SOJAC">Nominations open!</a></td>
                 </tr>
                 <tr>
                     <td>Steward, Arts, Science & Management</td>
@@ -56,7 +60,7 @@ export default function MembersPage() {
                 </tr>
                 <tr>
                     <td>Steward, Health & Human Services</td>
-                    <td>[vacant]</td>
+                    <td>Heidi Deagle</td>
                 </tr>
                 <tr>
                     <td>Steward, Trades & Technical</td>
@@ -84,7 +88,7 @@ export default function MembersPage() {
                 </tr>
                 <tr>
                     <td>Bargaining <strong>BCC</strong></td>
-                    <td>Erin McConomy</td>
+                    <td>Brian Koehler</td>
                 </tr>
                 <tr>
                     <td>Contract Administration & Review <strong>CARC</strong></td>
@@ -137,7 +141,7 @@ export default function MembersPage() {
             </tbody>
         </table>
 
-        <h2>NICFA Joint Occupational Health & Safety Representatives</h2>
+        <h2 id="SOJAC">NICFA Joint Occupational Health & Safety Representatives</h2>
 
         <table>
             <tbody>
@@ -156,6 +160,31 @@ export default function MembersPage() {
             </tbody>
         </table>
 
+        <h2>NEW! Social, Organizing & Job Action Chair</h2>
+
+        <p>The NICFA Executive is thrilled to say that we will be piloting 
+            a 25% release next academic year for the newest executive 
+            position, the Social, Organizing, and Job Action Chair. Members 
+            will find the relevant information about the position, including 
+            links to the application form and instructions, HERE. Nominations 
+            are open until Tuesday, May 14th at 4:00pm. No previous 
+            experience doing union work is required; just a desire to 
+            learn more and improve working conditions at NIC.</p>
+ 
+        <p>We encourage all eligible members to consider this released 
+            position. This includes faculty who work high contact hours; 
+            NICFA is ready to work with you, your department, and your 
+            exempt administrator, to ensure this opportunity is widely 
+            available!</p>
+  
+        <p>You can contact Jen Wrye directly for more information. 
+            Alternatively, you can attend a previously scheduled NICFA 
+            policy consultation meeting to learn more or ask questions.</p>
+
+        <ul>
+            <li><a target="_blank" href={SOJACInfoUrl}>Information Sheet</a></li>
+            <li><a target="_blank" href={SOJACNominationUrl}>Nomination Form</a></li>
+        </ul>
       </SimpleContent>
     </Layout>
   );

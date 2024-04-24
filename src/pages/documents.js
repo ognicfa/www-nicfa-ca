@@ -16,8 +16,8 @@ export default function DocumentsPage() {
       description="Documents (NICFA)">
       <SimpleHeader bgimage="files">Documents</SimpleHeader>
       <SimpleContent>
-      <p><a href={CollectiveAgreementUrl}>2022 - 2025 Collective Agreement</a></p>
-      <p><a href={ConstitutionUrl}>Constitution, Bylaws & Code of Ethics</a></p>
+      <p><a target="_blank" href={CollectiveAgreementUrl}>2022 - 2025 Collective Agreement</a></p>
+      <p><a target="_blank" href={ConstitutionUrl}>Constitution, Bylaws & Code of Ethics</a></p>
       <p><Link to=""></Link></p>
       <p><Link to=""></Link></p>
       <p><Link to=""></Link></p>
