@@ -51,8 +51,8 @@ export default function MembersPage() {
                     <td>Jenn Evans</td>
                 </tr>
                 <tr>
-                    <td>Social, Organizing & Job Action Chair (NEW)</td>
-                    <td>[vacant] <a href="#SOJAC">Nominations open!</a></td>
+                    <td>Social, Organizing & Job Action Chair</td>
+                    <td>Laura Bailey</td>
                 </tr>
                 <tr>
                     <td>Steward, Arts, Science & Management</td>
@@ -136,7 +136,7 @@ export default function MembersPage() {
                 </tr>
                 <tr>
                     <td><strong>Common PD</strong></td>
-                    <td>Denise Sibileau & Liz Gerard</td>
+                    <td>Denise Sibileau & Liz Girard</td>
                 </tr>
             </tbody>
         </table>
@@ -155,36 +155,11 @@ export default function MembersPage() {
                 </tr>
                 <tr>
                     <td><strong>Port Alberni</strong></td>
-                    <td>[vacant]</td>
+                    <td>Amanda Pope</td>
                 </tr>
             </tbody>
         </table>
 
-        <h2>NEW! Social, Organizing & Job Action Chair</h2>
-
-        <p>The NICFA Executive is thrilled to say that we will be piloting 
-            a 25% release next academic year for the newest executive 
-            position, the Social, Organizing, and Job Action Chair. Members 
-            will find the relevant information about the position, including 
-            links to the application form and instructions, HERE. Nominations 
-            are open until Tuesday, May 14th at 4:00pm. No previous 
-            experience doing union work is required; just a desire to 
-            learn more and improve working conditions at NIC.</p>
- 
-        <p>We encourage all eligible members to consider this released 
-            position. This includes faculty who work high contact hours; 
-            NICFA is ready to work with you, your department, and your 
-            exempt administrator, to ensure this opportunity is widely 
-            available!</p>
-  
-        <p>You can contact Jen Wrye directly for more information. 
-            Alternatively, you can attend a previously scheduled NICFA 
-            policy consultation meeting to learn more or ask questions.</p>
-
-        <ul>
-            <li><a target="_blank" href={SOJACInfoUrl}>Information Sheet</a></li>
-            <li><a target="_blank" href={SOJACNominationUrl}>Nomination Form</a></li>
-        </ul>
       </SimpleContent>
     </Layout>
   );
