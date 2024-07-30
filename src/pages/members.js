@@ -18,7 +18,7 @@ export default function MembersPage() {
       <SimpleContent>
         <h1>Who's Who</h1>
 
-        <h2>Executive 2023 - 2025</h2>
+        <h2>Executive &amp; Council 2023 - 2025</h2>
 
         <table>
             <tbody>
