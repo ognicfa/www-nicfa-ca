@@ -5,7 +5,7 @@ import Layout from '@theme/Layout';
 import SimpleContent from '@site/src/components/SimpleContent';
 import SimpleHeader from '@site/src/components/SimpleHeader';
 
-import ConstitutionUrl from '@site/static/pdfs/NICFA-Bylaws-Constitution-Code-of-Ethics-2021.pdf';
+import ConstitutionUrl from '@site/static/pdfs/constitution-bylaws-2024.pdf';
 import CollectiveAgreementUrl from '@site/static/pdfs/collective-agreement-NIC-NICFA-2022-2025.pdf';
 import AppealsPolicyUrl from '@site/static/pdfs/policies/NICFA Appeals Policy.pdf';
 import ConductPolicyUrl from '@site/static/pdfs/policies/NICFA Conduct Policy.pdf';
