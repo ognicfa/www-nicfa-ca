@@ -23,7 +23,8 @@ import PrivacyPolicyUrl from '@site/static/pdfs/policies/NICFA Privacy Policy.pd
 import ReimbursementTravelPolicyUrl from '@site/static/pdfs/policies/NICFA Reimbursement & Travel Policy.pdf';
 import RepresentationCommunicationsPolicyUrl from '@site/static/pdfs/policies/NICFA Representation and Communications Policy.pdf';
 import StrikeJobActionPolicyUrl from '@site/static/pdfs/policies/NICFA Strike and Job Action Policy.pdf';
-
+import PDHandbookUrl from '@site/static/pdfs/PD-handbook.pdf';
+import ManulifeUrl from '@site/static/pdfs/ManulifeBenefits.pdf'
 export default function DocumentsPage() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -51,6 +52,9 @@ export default function DocumentsPage() {
       <p><a target="_blank" href={ReimbursementTravelPolicyUrl}>Reimbursement & Travel Policy</a></p>
       <p><a target="_blank" href={RepresentationCommunicationsPolicyUrl}>Representation and Communications Policy</a></p>
       <p><a target="_blank" href={StrikeJobActionPolicyUrl}>Strike and Job Action Policy</a></p>
+      <h2>Miscellaneous</h2>
+      <p><a target="_blank" href={PDHandbookUrl}>PD Handbook</a></p>
+      <p><a target="_blank" href={ManulifeUrl}>Manulife Benefits</a></p>
       <p><Link to=""></Link></p>
       <p><Link to=""></Link></p>
       <p><Link to=""></Link></p>

@@ -4,47 +4,48 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   customFields: {
     recaptchaKey: process.env.REACT_APP_RECAPTCHA_KEY,
     backendURL: process.env.REACT_APP_BACKEND_URL,
+    backendUpdateURL: process.env.REACT_APP_UPDATE_URL,
   },
-  title: 'NICFA',
-  tagline: 'North Island College Faculty Association',
-  favicon: 'img/nicfa-logo.ico',
+  title: "NICFA",
+  tagline: "North Island College Faculty Association",
+  favicon: "img/nicfa-logo.ico",
 
   // Set the production url of your site here
-  url: 'https://www.nicfa.ca',
+  url: "https://www.nicfa.ca",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ognicfa', // Usually your GitHub org/user name.
-  projectName: 'www-nicfa-ca', // Usually your repo name.
+  organizationName: "ognicfa", // Usually your GitHub org/user name.
+  projectName: "www-nicfa-ca", // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       }),
     ],
@@ -54,49 +55,49 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/nicfa-logo.jpg',
+      image: "img/nicfa-logo.jpg",
       navbar: {
-        title: '',
+        title: "",
         logo: {
-          alt: 'NICFA Logo',
+          alt: "NICFA Logo",
           //src: 'img/logo.svg',
-          src: 'img/nicfa-logo.jpg',
+          src: "img/nicfa-logo.jpg",
         },
         items: [
-          {to: '/members', label: 'Members', position: 'left'},
-          {to: '/documents', label: 'Documents', position: 'left'},
-          {to: '/contact', label: 'Contact Us', position: 'left'},
+          { to: "/members", label: "Members", position: "left" },
+          { to: "/documents", label: "Documents", position: "left" },
+          { to: "/contact", label: "Contact Us", position: "left" },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Links',
+            title: "Links",
             items: [
               {
-                label: 'Contact Us',
-                to: 'contact/',
+                label: "Contact Us",
+                to: "contact/",
               },
               {
-                label: 'FPSE',
-                href: 'https://fpse.ca',
+                label: "FPSE",
+                href: "https://fpse.ca",
               },
               {
-                label: 'CAUT',
-                href: 'https://www.caut.ca',
+                label: "CAUT",
+                href: "https://www.caut.ca",
               },
               {
-                label: 'CLC',
-                href: 'https://canadianlabour.ca',
+                label: "CLC",
+                href: "https://canadianlabour.ca",
               },
               {
-                label: 'BCFED',
-                href: 'https://bcfed.ca',
+                label: "BCFED",
+                href: "https://bcfed.ca",
               },
               {
-                label: 'NIC',
-                href: 'https://www.nic.bc.ca',
+                label: "NIC",
+                href: "https://www.nic.bc.ca",
               },
             ],
           },
