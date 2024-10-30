@@ -323,7 +323,7 @@ export default function VerifyForm() {
           />
         </div>
         <div>
-          <label for="phone">Personal Phone Number</label>
+          <label for="phone">Personal Phone Number (NNN-NNN-NNNN format)</label>
           <input
             type="tel"
             name="tel"
