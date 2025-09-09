@@ -46,7 +46,7 @@ export default function Home() {
         <p>Our members work in the Comox Valley, Campbell 
           River, Port Alberni and Port Hardy, and Ucluelet.
         </p>
-                <p>NICFA MEMBERS: To share or update your non-NIC email address, please use the following form: <a href="https://www.nicfa.ca/update/">https://www.nicfa.ca/update/</a>
+                <p><strong>NICFA MEMBERS: </strong>To share or update your non-NIC email address, please use the following form: <a href="https://www.nicfa.ca/update/">https://www.nicfa.ca/update/</a>
         </p>
       </SimpleContent>
     </Layout>

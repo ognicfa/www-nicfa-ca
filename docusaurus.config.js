@@ -66,7 +66,7 @@ const config = {
         items: [
           { to: "/members", label: "Members", position: "left" },
           { to: "/documents", label: "Documents", position: "left" },
-                    { to: "/update", label: "Update My Info", position: "left" },
+          { to: "/update", label: "Update My Info", position: "left" },
           { to: "/contact", label: "Contact Us", position: "left" },
         ],
       },
