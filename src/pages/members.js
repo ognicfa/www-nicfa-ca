@@ -14,11 +14,11 @@ export default function MembersPage() {
     <Layout
       title={`Members & Committee`}
       description="Members and Committee (NICFA)">
-      <SimpleHeader bgimage="hands">Members & Committee</SimpleHeader>
+      <SimpleHeader bgimage="hands">Members & Committees</SimpleHeader>
       <SimpleContent>
-        <h1>Who's Who</h1>
+        <h1>Who's Who 2025 - 2027</h1>
 
-        <h2>Executive &amp; Council 2025 - 2027</h2>
+        <h2>Executive &amp; Council</h2>
 
         <table>
             <tbody>
@@ -149,7 +149,7 @@ export default function MembersPage() {
             </tbody>
         </table>
 
-        <h2>NICFA Joint Occupational Health & Safety Representatives</h2>
+        <h2>NICFA Joint Occupational Health &amp; Safety Representatives</h2>
 
         <table>
             <tbody>
